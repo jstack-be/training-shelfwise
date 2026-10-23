@@ -15,9 +15,14 @@ Everything in `CLAUDE.md` costs context in **every** session, so it only holds w
 procedure that is needed now and then — explaining a fine, adding a material type, driving the business date — is a
 skill: the one-line description stays in context, the body is read when it is actually needed.
 
-An agent is for work whose *intermediate* output is not worth keeping: reading half the analysis pack to answer one
-question (`analysis-researcher`), or implementing a scoped change (`senior-developer`). You see the conclusion, not
-the files it read.
+An agent is for work whose *intermediate* output is not worth keeping: `analysis-researcher` reads half the
+analysis pack to answer one question and gives back a cited paragraph, instead of filling the session with
+documents. That is the only case here that earns an agent.
+
+There is deliberately **no** "senior developer" agent. An agent that implements a feature end to end needs exactly
+the context the main session already has, cannot ask you a question halfway, and hands back a summary of work you
+cannot see it do — while `CLAUDE.md` says to ask rather than invent behaviour. Implementing happens in the session,
+with the skills.
 
 ## Rules of thumb when you extend this
 
@@ -26,5 +31,6 @@ the files it read.
   ended up quoting LibTrack 4 rates.
 - Never put a business value in two places. `summary.md` is the source of truth; `CLAUDE.md` repeats only the
   handful of values that are needed to not make a mistake, and everything else is a reference to a section.
-- An agent that commits, pushes or "improves things it notices along the way" will do exactly that, unsupervised.
-  Keep agents scoped and read-only where you can.
+- Add an agent only when the work is a read-heavy detour whose intermediate output you do not want: a search, a
+  research question, a second opinion. Keep it read-only and scoped. An agent that commits, pushes or "improves
+  things it notices along the way" will do exactly that, unsupervised.
