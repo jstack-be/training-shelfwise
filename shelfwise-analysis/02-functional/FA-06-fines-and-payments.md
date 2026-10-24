@@ -3,10 +3,10 @@
 | Field | Value |
 |---|---|
 | Document ID | FA-06 |
-| Version | 2.0 |
+| Version | 2.1 |
 | Status | Approved |
 | Owner | Tom Hollis, Business Analyst |
-| Last updated | 2026-04-10 |
+| Last updated | 2026-05-15 |
 | Related | FA-02, FA-04, FA-09, BR-catalogue, minutes 2026-04-02 |
 
 ## 1. Purpose
@@ -71,7 +71,7 @@ The overdue fine per copy is capped at **€10.00 or the replacement cost of the
 |---|---|---|---|---|---|---|---|
 | 1 | ADULT | BOOK | Mon 2026-03-02 | Tue 2026-03-03 | 1 | Within grace period | €0.00 |
 | 2 | ADULT | BOOK | Mon 2026-03-02 | Wed 2026-03-04 | 2 | 2 × €0.25 | €0.50 |
-| 3 | ADULT | BOOK | Fri 2026-03-06 | Fri 2026-03-13 | 7 | 7 × €0.25 | €1.75 |
+| 3 | ADULT | BOOK | Fri 2026-03-06 | Fri 2026-03-13 | 6 | Sunday 8 March not counted; 6 × €0.25 | €1.50 |
 | 4 | ADULT | BOOK | Sat 2026-04-04 | Wed 2026-04-08 | 2 | Sunday 5 April and Easter Monday 6 April not counted; 2 × €0.25 | €0.50 |
 | 5 | SENIOR | BOOK | Mon 2026-03-02 | Sat 2026-03-07 | 5 | 5 × €0.25 = €1.25; minus 50% = €0.625; rounded | €0.63 |
 | 6 | ADULT | AUDIOVISUAL (replacement cost €8.00) | Mon 2026-03-02 | Mon 2026-03-16 | 12 | 12 × €1.00 = €12.00; maximum is the lower of €10.00 and €8.00 | €8.00 |
