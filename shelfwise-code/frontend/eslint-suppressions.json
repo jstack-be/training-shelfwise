@@ -1,0 +1,92 @@
+{
+  "src/app/layout/shell.ts": {
+    "no-restricted-syntax": {
+      "count": 2
+    }
+  },
+  "src/app/pages/catalogue/catalogue.page.ts": {
+    "no-restricted-syntax": {
+      "count": 1
+    }
+  },
+  "src/app/pages/desk/membership-panel.ts": {
+    "no-restricted-syntax": {
+      "count": 1
+    }
+  },
+  "src/app/pages/login/login.page.ts": {
+    "no-restricted-syntax": {
+      "count": 2
+    }
+  },
+  "src/app/pages/payment/payment-provider.page.ts": {
+    "no-restricted-syntax": {
+      "count": 1
+    }
+  },
+  "src/app/pages/portal/portal.page.ts": {
+    "no-restricted-syntax": {
+      "count": 1
+    }
+  },
+  "src/app/pages/portal/preferences-form.ts": {
+    "no-restricted-syntax": {
+      "count": 1
+    }
+  },
+  "src/app/pages/register/register-member.page.ts": {
+    "no-restricted-syntax": {
+      "count": 1
+    }
+  },
+  "src/app/pages/returns/returns.page.ts": {
+    "no-restricted-syntax": {
+      "count": 1
+    }
+  },
+  "src/app/pages/titles/title-form.ts": {
+    "no-restricted-syntax": {
+      "count": 1
+    }
+  },
+  "src/app/shared/business-date-chip.ts": {
+    "no-restricted-syntax": {
+      "count": 1
+    }
+  },
+  "src/app/shared/error-message.ts": {
+    "no-restricted-syntax": {
+      "count": 1
+    }
+  },
+  "src/app/shared/reserve-action.ts": {
+    "no-restricted-syntax": {
+      "count": 1
+    }
+  },
+  "src/app/training-kit/demo-book-list.ts": {
+    "no-restricted-syntax": {
+      "count": 1
+    }
+  },
+  "src/app/training-kit/training-filter.ts": {
+    "no-restricted-syntax": {
+      "count": 1
+    }
+  },
+  "src/app/training-kit/training-kit.ts": {
+    "no-restricted-syntax": {
+      "count": 1
+    }
+  },
+  "src/app/ui/stat-tile.ts": {
+    "no-restricted-syntax": {
+      "count": 1
+    }
+  },
+  "src/app/ui/status-pill.ts": {
+    "no-restricted-syntax": {
+      "count": 1
+    }
+  }
+}
