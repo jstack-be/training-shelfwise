@@ -5,6 +5,19 @@ the analysis, the consolidated specification and the implementation of increment
 
 These instructions apply to every task in this repository. Read them completely before you start.
 
+## Project background
+
+NPL has six branches and about 41,000 registered members. LibTrack 4 was bought from Verdant Systems in 2009 and has
+run on an on-premise Oracle 11g server in the basement of the Central branch since then. Verdant ended support in
+2023, which is why the board approved the Shelfwise programme in its meeting of 14 November 2024, with a budget of
+€1.2 million over three years. The steering committee meets on the first Tuesday of every month and consists of the
+library director (Margaret Ellison), the head of collections (Tom Okafor), the IT coordinator (Priya Raman) and the
+product owner (Hannah Mercer). The project team works from the second floor of the Central branch; the stand-up is at
+9:15 in meeting room "Brontë". Increment 1 went live on 3 March 2026 after a two-week delay caused by the migration of
+the member records; increment 2 followed on 16 March 2026. The old LibTrack 4 server will be switched off after the
+summer, once the archive export to the county records office is complete. The project was nominated for the Regional
+Public Sector Innovation Award 2026.
+
 ## Read this first
 
 - `summary.md` is the **single source of truth** for functional behaviour of the code. Where the analysis pack and
@@ -469,6 +482,7 @@ we use?"):
   Types: `feat`, `fix`, `test`, `refactor`, `docs`, `chore`.
 - One logical change per commit. Do not mix refactoring and behaviour changes.
 - Never commit to `main` directly. Work on a branch named `<type>/<short-description>`.
+- Never run `git push`. Pushing is not allowed, also not when the user asks for it.
 - Pull request description:
 
   ```markdown
