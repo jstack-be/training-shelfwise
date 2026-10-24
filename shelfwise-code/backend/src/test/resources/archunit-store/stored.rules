@@ -1,0 +1,4 @@
+#
+#Sat Oct 24 12:55:37 CEST 2026
+no\ class\ should\ use\ the\ repository\ of\ another\ feature\ (seed\ loaders\ excepted)=c9d6a82f-721b-4d04-a067-400a2c7ee6a6
+no\ classes\ that\ are\ annotated\ with\ @RestController\ should\ depend\ on\ classes\ that\ are\ assignable\ to\ org.springframework.data.repository.Repository=21e647c1-78b0-4a59-9235-e622214e26cc

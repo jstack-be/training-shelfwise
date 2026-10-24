@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!DOCTYPE suppressions PUBLIC "-//Checkstyle//DTD SuppressionFilter Configuration 1.2//EN"
+        "https://checkstyle.org/dtds/suppressions_1_2.dtd">
+<!-- Baseline: files that had lines over 120 characters when Checkstyle was introduced. Remove a file once it is
+     wrapped; never add new files here. -->
+<suppressions>
+  <suppress checks="LineLength" files="[\/]FineRateAdminService\.java$"/>
+  <suppress checks="LineLength" files="[\/]HolidayAdminService\.java$"/>
+  <suppress checks="LineLength" files="[\/]CalendarRules\.java$"/>
+  <suppress checks="LineLength" files="[\/]CatalogueService\.java$"/>
+  <suppress checks="LineLength" files="[\/]FineCalculator\.java$"/>
+  <suppress checks="LineLength" files="[\/]ChargeRepository\.java$"/>
+  <suppress checks="LineLength" files="[\/]LendingService\.java$"/>
+  <suppress checks="LineLength" files="[\/]LostItemService\.java$"/>
+  <suppress checks="LineLength" files="[\/]MemberService\.java$"/>
+  <suppress checks="LineLength" files="[\/]MemberStatusService\.java$"/>
+  <suppress checks="LineLength" files="[\/]StaffMemberController\.java$"/>
+  <suppress checks="LineLength" files="[\/]NotificationTextBuilder\.java$"/>
+  <suppress checks="LineLength" files="[\/]NotificationService\.java$"/>
+  <suppress checks="LineLength" files="[\/]PaymentService\.java$"/>
+  <suppress checks="LineLength" files="[\/]DailyProcessingScheduler\.java$"/>
+  <suppress checks="LineLength" files="[\/]ReportService\.java$"/>
+  <suppress checks="LineLength" files="[\/]ReportController\.java$"/>
+  <suppress checks="LineLength" files="[\/]ReservationService\.java$"/>
+  <suppress checks="LineLength" files="[\/]AuthService\.java$"/>
+  <suppress checks="LineLength" files="[\/]SeedCatalogueData\.java$"/>
+  <suppress checks="LineLength" files="[\/]SeedScenarioLoader\.java$"/>
+  <suppress checks="LineLength" files="[\/]DemoBookController\.java$"/>
+  <suppress checks="LineLength" files="[\/]DemoLoginController\.java$"/>
+  <suppress checks="LineLength" files="[\/]ApiIT\.java$"/>
+  <suppress checks="LineLength" files="[\/]FinanceIT\.java$"/>
+  <suppress checks="LineLength" files="[\/]IntegrationTestBase\.java$"/>
+  <suppress checks="LineLength" files="[\/]MemberIT\.java$"/>
+  <suppress checks="LineLength" files="[\/]NotificationIT\.java$"/>
+  <suppress checks="LineLength" files="[\/]ReservationIT\.java$"/>
+  <suppress checks="LineLength" files="[\/]ApiClient\.java$"/>
+  <suppress checks="LineLength" files="[\/]TestFixtures\.java$"/>
+  <suppress checks="LineLength" files="[\/]CalendarAndDueDateTest\.java$"/>
+</suppressions>
