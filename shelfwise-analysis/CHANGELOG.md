@@ -7,6 +7,9 @@ All changes to the Shelfwise analysis documents, newest first.
 | 2026-05-20 | README | 1.3 | T. Hollis | Added precedence rules and open issues OI-03, OI-04 |
 | 2026-05-19 | TA-02 | 1.2 | J. Becker | Fine calculation aligned with ADR-005 (on-demand calculation) |
 | 2026-05-18 | TA-01 | 1.3 | S. Lindqvist | Stack overview updated after ADR-005 |
+| 2026-05-15 | TA-09 | 1.1 | J. Becker | TC-FIN-03 aligned with FA-06 §3.8 |
+| 2026-05-15 | FA-06 | 2.1 | T. Hollis | Worked example 3 corrected |
+| 2026-05-15 | FA-04 | 1.3 | T. Hollis | Worked examples for the due date added |
 | 2026-05-13 | ADR-005 | 1.0 | S. Lindqvist | Accepted by steering committee |
 | 2026-05-13 | Minutes | — | H. Mercer | Steering committee minutes added |
 | 2026-05-12 | TA-09 | 1.0 | J. Becker | Initial version |

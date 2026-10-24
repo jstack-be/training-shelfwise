@@ -5,3 +5,5 @@ shelfwise-code/frontend/.angular/
 shelfwise-code/.idea/
 shelfwise-code/*.iml
 shelfwise-code/.DS_Store
+
+.claude/settings.local.json

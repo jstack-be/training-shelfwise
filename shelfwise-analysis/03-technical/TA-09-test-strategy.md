@@ -3,10 +3,10 @@
 | Field | Value |
 |---|---|
 | Document ID | TA-09 |
-| Version | 1.0 |
+| Version | 1.1 |
 | Status | Approved |
 | Owner | Jonas Becker, Backend Lead |
-| Last updated | 2026-05-12 |
+| Last updated | 2026-05-15 |
 | Related | TA-02, TA-08, FA-06 |
 
 ## 1. Test levels
@@ -41,7 +41,7 @@ These test cases are taken from the worked examples in FA-06 §3.8. They form th
 |---|---|---|---|---|---|---|
 | TC-FIN-01 | ADULT | BOOK | €25.00 | 2026-03-02 | 2026-03-03 | €0.00 |
 | TC-FIN-02 | ADULT | BOOK | €25.00 | 2026-03-02 | 2026-03-04 | €0.50 |
-| TC-FIN-03 | ADULT | BOOK | €25.00 | 2026-03-06 | 2026-03-13 | €1.75 |
+| TC-FIN-03 | ADULT | BOOK | €25.00 | 2026-03-06 | 2026-03-13 | €1.50 |
 | TC-FIN-04 | ADULT | BOOK | €25.00 | 2026-04-04 | 2026-04-08 | €0.50 |
 | TC-FIN-05 | SENIOR | BOOK | €25.00 | 2026-03-02 | 2026-03-07 | €0.63 |
 | TC-FIN-06 | ADULT | AUDIOVISUAL | €8.00 | 2026-03-02 | 2026-03-16 | €8.00 |

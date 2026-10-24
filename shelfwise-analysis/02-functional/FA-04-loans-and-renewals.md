@@ -3,10 +3,10 @@
 | Field | Value |
 |---|---|
 | Document ID | FA-04 |
-| Version | 1.2 |
+| Version | 1.3 |
 | Status | Approved |
 | Owner | Tom Hollis, Business Analyst |
-| Last updated | 2026-04-12 |
+| Last updated | 2026-05-15 |
 | Related | FA-02, FA-03, FA-05, FA-06, FA-07 |
 
 ## 1. Checkout
@@ -46,6 +46,17 @@ If a check fails, the system shows the reason to the librarian. A Branch Manager
 - Due date = checkout date + loan period.
 - If the due date falls on a closing day (a Sunday or a public holiday), it moves to the next opening day (BR-LOA-02).
 - Public holidays are listed in `06-reference/public-holidays-2026.csv` and maintained by the administrator in the system.
+
+### 3.1 Worked examples
+
+| # | Material | Checked out | Due date | Explanation |
+|---|---|---|---|---|
+| 1 | MAGAZINE | Wed 2026-03-11 | Wed 2026-03-25 | 14 days; the due date is an opening day |
+| 2 | AUDIOVISUAL | Mon 2026-03-30 | Tue 2026-04-07 | 7 days gives Easter Monday 6 April, a public holiday; moved to the next opening day |
+| 3 | BOOK | Sat 2026-04-11 | Sat 2026-05-02 | 21 days; Labour Day 1 May falls inside the loan period but does not move the due date |
+| 4 | BOOK | Mon 2026-05-04 | Mon 2026-05-25 | 21 days; Ascension Day 14 May and Sunday 24 May fall inside the loan period but do not move the due date |
+| 5 | AUDIOVISUAL | Tue 2026-07-14 | Wed 2026-07-22 | 7 days gives National Day 21 July, a public holiday; moved to the next opening day |
+| 6 | MAGAZINE | Sat 2026-08-01 | Mon 2026-08-17 | 14 days gives Assumption Day 15 August, and 16 August is a Sunday; moved to Monday 17 August |
 
 ## 4. Renewals
 
