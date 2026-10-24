@@ -31,7 +31,7 @@ number (`NPL000001` to `NPL000019`, scenarios S-01 to S-19).
 Back-end unit tests and integration tests (against a real PostgreSQL through Testcontainers):
 
 ```bash
-cd backend && mvn test
+cd backend && ./mvnw test
 ```
 
 No JDK or Docker-in-Docker? Run the tests in a container against a throw-away PostgreSQL:

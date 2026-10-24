@@ -31,7 +31,7 @@ void overdueFine(String id, MemberCategory category, MaterialType material, Stri
 }
 ```
 
-Run them after every change to a Java file: `mvn test -Dtest='*Test'`.
+Run them after every change to a Java file: `./mvnw test -Dtest='*Test'` (a Stop hook also runs them when Java files changed).
 
 ## Integration tests (`*IT.java`)
 
@@ -42,7 +42,7 @@ Run them after every change to a Java file: `mvn test -Dtest='*Test'`.
 - A rule that applies to the desk and to the portal needs a test for each channel.
 - Assert the refusal, not only the status: `code`, `ruleId` and HTTP 422.
 - `@DisplayName` starts with the AC-ID: `@DisplayName("AC-FIN-22: librarian cannot waive on own account")`.
-- They need Docker (Testcontainers). Run the full suite with `mvn test`.
+- They need Docker (Testcontainers). Run the full suite with `./mvnw test`.
 
 ## Front-end specs
 

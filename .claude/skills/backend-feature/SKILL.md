@@ -54,6 +54,6 @@ Read the `backend` container logs first; the cause is almost always one of:
 | `FlywayException: Found non-empty schema` | Stale volume: `docker compose down -v`, then `up --build` |
 
 ```bash
-cd shelfwise-code/backend && mvn clean install -DskipTests
+cd shelfwise-code/backend && ./mvnw clean install -DskipTests
 cd shelfwise-code && docker compose up --build
 ```

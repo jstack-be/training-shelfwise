@@ -13,8 +13,8 @@ final answer, so make it complete and short.
 1. Search before you read: grep for the terms, rule IDs (`BR-…`), use case IDs (`UC-…`) and document IDs of the
    question. Read only the sections that match.
 2. Always check the later sources on the same topic: the meeting minutes in `05-meetings/`, the ADRs in
-   `04-decisions/` (ADR-002 is superseded by ADR-004) and `CHANGELOG.md`. Later decisions often change earlier
-   documents.
+   `04-decisions/` (check each ADR's status for superseded decisions) and `CHANGELOG.md`. Later decisions often
+   change earlier documents.
 3. Collect **every** value you find, including the ones that contradict each other, with document ID, section,
    version and date.
 4. Apply the precedence rules of `shelfwise-analysis/README.md` in order and name the rule you applied.

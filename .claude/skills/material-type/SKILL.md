@@ -36,6 +36,6 @@ Record every answer, and every choice the specification leaves open, in `shelfwi
 
 10. Add tests for the loan period, the due date on a closing day, and the fine at the new rates, with their AC-IDs
     (see the `writing-tests` skill). Update the traceability table in `shelfwise-code/README.md`.
-11. Run `mvn test` and `npx ng test --watch=false`.
-12. Run the `spec-review` skill.
+11. Run `./mvnw test` and `npx ng test --watch=false`.
+12. Have the `spec-reviewer` agent review the change.
 13. Update documentation derived from `summary.md` only after the product owner has approved the new type.
