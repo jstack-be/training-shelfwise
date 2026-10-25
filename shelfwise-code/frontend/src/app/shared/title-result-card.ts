@@ -1,17 +1,25 @@
 import { ChangeDetectionStrategy, Component, input } from '@angular/core';
+import { RouterLink } from '@angular/router';
 import { TitleResult } from '../core/models';
 import { MATERIAL_LABEL } from '../helpers/labels';
+import { Icon } from '../ui/icon';
 import { StatusPill } from '../ui/status-pill';
 
 /** A catalogue result with availability per branch. Actions (reserve, add copy…) are projected into the card. */
 @Component({
   selector: 'app-title-result-card',
-  imports: [StatusPill],
+  imports: [RouterLink, Icon, StatusPill],
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
     <article class="title-card" [attr.data-testid]="'title-' + title().id">
       <header>
-        <h3>{{ title().title }}</h3>
+        <h3>
+          {{ title().title }}
+          @if (detailsLink()) {
+            <a class="details" [routerLink]="['/catalogue/titles', title().id]" [attr.aria-label]="'Details of ' + title().title"
+               title="View details" [attr.data-testid]="'details-' + title().id"><app-icon name="arrowRight" [size]="18" /></a>
+          }
+        </h3>
         <p class="meta">
           {{ title().authors }}
           <span>{{ material() }}</span>
@@ -36,6 +44,8 @@ import { StatusPill } from '../ui/status-pill';
     .title-card { background: var(--sw-color-surface); border: 1px solid var(--sw-color-line); border-radius: var(--sw-radius-md);
                   padding: var(--sw-space-5); margin: var(--sw-space-3) 0; box-shadow: var(--sw-shadow-card); }
     h3 { font-size: 20px; }
+    .details { margin-left: var(--sw-space-1); color: var(--sw-color-muted); }
+    .details:hover, .details:focus-visible { color: var(--sw-color-accent); }
     .meta { margin: var(--sw-space-1) 0 0; color: var(--sw-color-muted); font-size: 14px; }
     .meta span::before { content: '·'; margin: 0 var(--sw-space-2); }
     .availability { display: flex; flex-wrap: wrap; align-items: center; gap: var(--sw-space-2); margin: var(--sw-space-4) 0 var(--sw-space-2); }
@@ -43,6 +53,8 @@ import { StatusPill } from '../ui/status-pill';
 })
 export class TitleResultCard {
   readonly title = input.required<TitleResult>();
+  /** Show an arrow after the title that opens the title detail page. */
+  readonly detailsLink = input(false);
   protected material(): string {
     return MATERIAL_LABEL[this.title().materialType];
   }

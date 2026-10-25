@@ -8,6 +8,10 @@ export const routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: 'catalogue' },
   { path: 'login', loadComponent: () => import('./pages/login/login.page').then((m) => m.LoginPage) },
   { path: 'catalogue', loadComponent: () => import('./pages/catalogue/catalogue.page').then((m) => m.CataloguePage) },
+  {
+    path: 'catalogue/titles/:id',
+    loadComponent: () => import('./pages/catalogue/title-detail.page').then((m) => m.TitleDetailPage),
+  },
   { path: 'pay/:reference', loadComponent: () => import('./pages/payment/payment-provider.page').then((m) => m.PaymentProviderPage) },
   {
     path: 'portal',

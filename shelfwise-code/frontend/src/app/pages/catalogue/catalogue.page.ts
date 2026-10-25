@@ -56,7 +56,7 @@ import { PageHeader } from '../../ui/page-header';
         <app-empty-state icon="search"><span data-testid="no-results">Nothing found. Try a shorter search.</span></app-empty-state>
       }
       @for (title of results(); track title.id) {
-        <app-title-result-card [title]="title">
+        <app-title-result-card [title]="title" [detailsLink]="true">
           @if (title.copies; as copies) {
             <table class="data-table">
               <thead><tr><th>Barcode</th><th>Home</th><th>Now at</th><th>Status</th></tr></thead>
